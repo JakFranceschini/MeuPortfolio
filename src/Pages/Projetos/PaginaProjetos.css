@@ -1,0 +1,11 @@
+.paginaProjetos {
+    display: flex;
+    align-items: center;
+    background: #151515;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container {
+    height: 800px;
+}

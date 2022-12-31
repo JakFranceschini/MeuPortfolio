@@ -1,0 +1,104 @@
+.topBar {
+    top: 0;
+    width: 98%;
+    height: 70px;
+    display: flex;
+    position: fixed;
+    margin-top: 10px;
+    border-radius: 40px;
+    background: #8080801a;
+    backdrop-filter: blur(10px);
+    justify-content: space-between;
+    box-shadow: #9999991a 0px 4px 10px;
+}
+
+.containerImgNome {
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerImgNome a {
+    height: 60px;
+}
+
+.imgTopBar {
+    height: 70px;
+}
+
+@keyframes mostraNome {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(10%);
+    }
+}
+
+#nomeTopBar {
+    margin: 10px;
+    height: 30px;
+    font-weight: 500;
+    color: #f5f5f5;
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+
+#imgTopBar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 3px solid #303030;
+    box-shadow: #9999991a 0px 4px 10px;
+}
+
+#imgTopBar:hover {
+    border: 3px solid #404040;
+}
+
+#imgTopBar:active {
+    border: 3px solid #606060;
+}
+
+.menuTopBar {
+    display: flex;
+    margin-right: 10px;
+    align-items: center;
+}
+
+.menuTopBar li {
+    height: 30px;
+    list-style: none;
+    align-items: center;
+}
+
+.menuTopBar a {
+    font-weight: 500;
+    color: #f5f5f5;
+    font-size: 1.4rem;
+    padding: 10px 25px;
+    text-decoration: none;
+}
+
+.menuTopBar a:hover {
+    padding: 10px 25px;
+    border-radius: 35px;
+    background: #303030;
+}
+
+.menuTopBar a:active {
+    background: #404040;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+    #nomeTopBar {
+        color: #f5f5f5;
+        font-size: 1.2rem;
+    }
+
+    .menuTopBar a {
+        font-size: 1.2rem;
+        padding: 10px 25px;
+    }
+}
