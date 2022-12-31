@@ -12,19 +12,23 @@
     box-shadow: #9999991a 0px 4px 10px;
 }
 
-.containerImgNome {
+#containerImgNome {
     display: flex;
     margin-left: 10px;
     align-items: center;
     justify-content: center;
 }
 
-.containerImgNome a {
+#containerImgNome a {
     height: 60px;
 }
 
 .imgTopBar {
     height: 70px;
+}
+
+#menuHamburguer{
+    display: none;
 }
 
 @keyframes mostraNome {
@@ -37,7 +41,7 @@
 }
 
 #nomeTopBar {
-    margin: 10px;
+    margin: 10px 0 0 10px;
     height: 30px;
     font-weight: 500;
     color: #f5f5f5;
@@ -59,6 +63,14 @@
 
 #imgTopBar:active {
     border: 3px solid #606060;
+}
+
+#iconeHamburguer {
+    display: none;
+}
+
+#menuHamburguerLinks {
+    display: none;
 }
 
 .menuTopBar {
@@ -91,6 +103,16 @@
     background: #404040;
 }
 
+@media screen and (min-width: 769px) and (max-width: 1279px){
+    #iconeHamburguer {
+        display: none;
+    }
+
+    #menuHamburguerLinks {
+        display: none;
+    }
+}
+
 @media screen and (min-width: 769px) and (max-width: 1279px) {
     #nomeTopBar {
         color: #f5f5f5;
@@ -100,5 +122,73 @@
     .menuTopBar a {
         font-size: 1.2rem;
         padding: 10px 25px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #menuHamburguer{
+        width: 100%;
+        height: 100vh;
+        display: none;
+        align-items: center;
+        flex-direction: column;
+        background: #101010f5;
+        justify-content: center;
+    }
+
+    #iconeHamburguer {
+        display: flex;
+        cursor: pointer;
+        margin: 10px 20px;
+    }
+
+    #iconeX {
+        width: 70px;
+        height: 70px;
+        display: none;
+        margin-left: 35px;
+        border-radius: 50%;
+        background: #404040;
+    }
+
+    #iconeX:hover {
+        background: #606060;
+    }
+
+    #iconeX:active {
+        background: #606060;
+    }
+
+    #menuHamburguerLinks {
+        display: none;
+        flex-direction: column;
+    }
+    
+    #menuHamburguerLinks li {
+        margin: 30px;
+        list-style: none;
+        text-align: center;
+    }
+
+    #menuHamburguerLinks a {
+        font-weight: 500;
+        color: #f5f5f5;
+        font-size: 1.4rem;
+        padding: 10px 25px;
+        text-decoration: none;
+    }
+
+    #menuHamburguerLinks a:hover {
+        padding: 10px 25px;
+        border-radius: 35px;
+        background: #303030;
+    }
+
+    #menuHamburguerLinks a:active {
+        background: #404040;
+    }
+
+    .menuTopBar {
+        display: none;
     }
 }

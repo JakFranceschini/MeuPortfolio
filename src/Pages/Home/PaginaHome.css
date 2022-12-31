@@ -326,6 +326,7 @@
     #email {
         max-width: 65px;
         margin-top: 30px;
+        justify-content: center;
     }
 
     .containerDestaques {
@@ -384,8 +385,8 @@
     }
 
     .imgSkills img {
-        display: flex;
         width: 100px;
         height: 100px;
+        display: flex;
     }
 }
