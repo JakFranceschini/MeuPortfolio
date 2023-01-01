@@ -2,7 +2,8 @@ import './PaginaProjetos.css'
 import TopBar from '../../Components/TopBar'
 import Footer from '../../Components/Footer'
 import ImgPrimeiroCard from './../../Img/imgPrimeiroCard.png'
-import { BsGithub, BsFillArrowRightCircleFill } from 'react-icons/bs'
+import ImgSegundoCard from './../../Img/imgSegundoCard.png'
+import { BsGithub, BsGlobe, BsFillArrowRightCircleFill } from 'react-icons/bs'
 
 function PaginaProjetos() {
 
@@ -16,104 +17,42 @@ function PaginaProjetos() {
                     <h2>Profile Card</h2>
                     <img src={ImgPrimeiroCard}></img>
                     <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
-                        ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+                        Projeto pessoal de um Profile Card desenvolvido com HTML e CSS.
                     </p>
-                    <a href='https://github.com/JakFranceschini/ProfileCard' target='blank'>
-                        <BsGithub size={40} color="#f5f5f5"/>
-                        <BsFillArrowRightCircleFill className='seta' size={25} color="#f5f5f5"/>
-                    </a>
+                    <ul>
+                        <li>
+                            <a href='https://github.com/JakFranceschini/ProfileCard' target='blank'>
+                                <BsGithub size={35} color="#f5f5f5"/>
+                                <BsFillArrowRightCircleFill className='seta' size={25} color="#f5f5f5"/>
+                            </a>
+                        </li>
+                        <li><a href='https://profile-card-rho-tan.vercel.app/' target='blank'>
+                                <BsGlobe size={35} color="#f5f5f5"/>
+                                <BsFillArrowRightCircleFill className='seta' size={25} color="#f5f5f5"/>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
 
                 <div className='cardProjeto'>
-                    <h2>Profile Card</h2>
-                    <img src={ImgPrimeiroCard}></img>
+                    <h2>ToDo List</h2>
+                    <img src={ImgSegundoCard}></img>
                     <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
-                        ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+                        Projeto pessoal de um ToDo List desenvolvido com HTML e CSS e JavaScript.
                     </p>
-                    <a href='https://github.com/JakFranceschini/ProfileCard' target='blank'>
-                        <BsGithub size={40} color="#f5f5f5"/>
-                        <BsFillArrowRightCircleFill className='seta' size={25} color="#f5f5f5"/>
-                    </a>
-                </div>
-
-                <div className='cardProjeto'>
-                    <h2>Profile Card</h2>
-                    <img src={ImgPrimeiroCard}></img>
-                    <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
-                        ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
-                    </p>
-                    <a href='https://github.com/JakFranceschini/ProfileCard' target='blank'>
-                        <BsGithub size={40} color="#f5f5f5"/>
-                        <BsFillArrowRightCircleFill className='seta' size={25} color="#f5f5f5"/>
-                    </a>
-                </div>
-
-                <div className='cardProjeto'>
-                    <h2>Profile Card</h2>
-                    <img src={ImgPrimeiroCard}></img>
-                    <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
-                        ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
-                    </p>
-                    <a href='https://github.com/JakFranceschini/ProfileCard' target='blank'>
-                        <BsGithub size={40} color="#f5f5f5"/>
-                        <BsFillArrowRightCircleFill className='seta' size={25} color="#f5f5f5"/>
-                    </a>
-                </div>
-
-                <div className='cardProjeto'>
-                    <h2>Profile Card</h2>
-                    <img src={ImgPrimeiroCard}></img>
-                    <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
-                        ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
-                    </p>
-                    <a href='https://github.com/JakFranceschini/ProfileCard' target='blank'>
-                        <BsGithub size={40} color="#f5f5f5"/>
-                        <BsFillArrowRightCircleFill className='seta' size={25} color="#f5f5f5"/>
-                    </a>
-                </div>
-
-                <div className='cardProjeto'>
-                    <h2>Profile Card</h2>
-                    <img src={ImgPrimeiroCard}></img>
-                    <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
-                        ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
-                    </p>
-                    <a href='https://github.com/JakFranceschini/ProfileCard' target='blank'>
-                        <BsGithub size={40} color="#f5f5f5"/>
-                        <BsFillArrowRightCircleFill className='seta' size={25} color="#f5f5f5"/>
-                    </a>
-                </div>
-
-                <div className='cardProjeto'>
-                    <h2>Profile Card</h2>
-                    <img src={ImgPrimeiroCard}></img>
-                    <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
-                        ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
-                    </p>
-                    <a href='https://github.com/JakFranceschini/ProfileCard' target='blank'>
-                        <BsGithub size={40} color="#f5f5f5"/>
-                        <BsFillArrowRightCircleFill className='seta' size={25} color="#f5f5f5"/>
-                    </a>
-                </div>
-
-                <div className='cardProjeto'>
-                    <h2>Profile Card</h2>
-                    <img src={ImgPrimeiroCard}></img>
-                    <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
-                        ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
-                    </p>
-                    <a href='https://github.com/JakFranceschini/ProfileCard' target='blank'>
-                        <BsGithub size={40} color="#f5f5f5"/>
-                        <BsFillArrowRightCircleFill className='seta' size={25} color="#f5f5f5"/>
-                    </a>
+                    <ul>
+                        <li>
+                            <a href='https://github.com/JakFranceschini/ToDoList' target='blank'>
+                                <BsGithub size={35} color="#f5f5f5"/>
+                                <BsFillArrowRightCircleFill className='seta' size={25} color="#f5f5f5"/>
+                            </a>
+                        </li>
+                        <li><a href='https://to-do-list-tau-jade.vercel.app/' target='blank'>
+                                <BsGlobe size={35} color="#f5f5f5"/>
+                                <BsFillArrowRightCircleFill className='seta' size={25} color="#f5f5f5"/>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
 

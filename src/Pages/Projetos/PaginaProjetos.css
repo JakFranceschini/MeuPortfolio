@@ -21,8 +21,7 @@
 .cardProjeto {
     width: 600px;
     display: flex;
-    height: 750px;
-    padding: 0 50px;
+    padding: 60px 50px;
     border-radius: 8%;
     background: #202020;
     flex-direction: column;
@@ -50,13 +49,23 @@
     margin-bottom: 20px;
 }
 
+.cardProjeto ul {
+    display: flex;
+}
+.cardProjeto li {
+    list-style: none;
+    margin-right: 20px;
+}
+
 .cardProjeto a {
+    width: 100px;
     display: flex;
     padding: 10px;
-    max-width: 70px;
+    cursor: pointer;
     border-radius: 30px;
     align-items: center;
     background: #303030;
+    justify-content: center;
 }
 
 .cardProjeto a:hover {

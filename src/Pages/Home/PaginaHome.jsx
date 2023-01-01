@@ -10,19 +10,9 @@ import ImgReactjs from './../../Img/imgReactjs.png'
 import ImgJavaScript from './../../Img/imgJavascript.png'
 import ImgSegundoCard from './../../Img/imgSegundoCard.png'
 import ImgPrimeiroCard from './../../Img/imgPrimeiroCard.png'
-import { BsFacebook, BsGithub, BsInstagram, BsWhatsapp, BsFillArrowRightCircleFill } from 'react-icons/bs'
+import { BsFacebook, BsGithub, BsInstagram, BsWhatsapp, BsGlobe, BsFillArrowRightCircleFill } from 'react-icons/bs'
 
 function PaginaHome() {
-
-  useEffect(() => {
-    let imgTopBar = document.getElementById('imgTopBar');
-    let nomeTopBar = document.getElementById('nomeTopBar');
-
-    imgTopBar.addEventListener('mouseover', function mostrarNome(){
-      nomeTopBar.innerHTML = 'Jakson Franceschini.';
-      nomeTopBar.style.animation = 'mostraNome 1s'
-    });
-  });
 
   useEffect(() => {
     let email = document.getElementById('email')
@@ -70,23 +60,54 @@ function PaginaHome() {
       </div>
 
       <div className="containerDestaques">
+
           <h2>Projetos em destaques.</h2>
           <h3>Alguns projetos pessoais que estou desenvolvendo.</h3>
-          <a className="cardDestaque" href="">
+
+          <div className="cardDestaque" href="">
               <img src={ImgPrimeiroCard}></img>
               <div className="conteudoCardDestaque">
                   <h2>Profile Card</h2>
-                  <p>Desenvolvi um projeto de profile card com HTML, CSS e JavaScript.</p>
+                  <p>Projeto pessoal de um Profile Card desenvolvido com HTML e CSS.</p>
+                  <ul>
+                        <li>
+                            <a href='https://github.com/JakFranceschini/ProfileCard' target='blank'>
+                                <BsGithub size={35} color="#f5f5f5"/>
+                                <BsFillArrowRightCircleFill className='seta' size={25} color="#f5f5f5"/>
+                            </a>
+                        </li>
+                        <li><a href='https://profile-card-rho-tan.vercel.app/' target='blank'>
+                                <BsGlobe size={35} color="#f5f5f5"/>
+                                <BsFillArrowRightCircleFill className='seta' size={25} color="#f5f5f5"/>
+                            </a>
+                        </li>
+                    </ul>
               </div>
-          </a>
-          <a className="cardDestaque" href="">
+          </div>
+
+          <div className="cardDestaque" href="">
           <img src={ImgSegundoCard}></img>
               <div className="conteudoCardDestaque">
                   <h2>ToDo List</h2>
                   <p>Desenvolvi um projeto de ToDo List com HTML, CSS e JavaScript.</p>
+                  <ul>
+                        <li>
+                            <a href='https://github.com/JakFranceschini/ToDoList' target='blank'>
+                                <BsGithub size={35} color="#f5f5f5"/>
+                                <BsFillArrowRightCircleFill className='seta' size={25} color="#f5f5f5"/>
+                            </a>
+                        </li>
+                        <li><a href='https://to-do-list-tau-jade.vercel.app/' target='blank'>
+                                <BsGlobe size={35} color="#f5f5f5"/>
+                                <BsFillArrowRightCircleFill className='seta' size={25} color="#f5f5f5"/>
+                            </a>
+                        </li>
+                    </ul>
               </div>
-          </a>
+          </div>
+
           <a className="verMais" href="Projetos">Ver mais<BsFillArrowRightCircleFill className="seta" size={20} color="#f5f5f5"/></a>
+
       </div>
 
       <div id="containerSkills">

@@ -7,6 +7,16 @@ import { FiMenu, FiX } from 'react-icons/fi'
 function TopBar(){
 
     useEffect(() => {
+        let imgTopBar = document.getElementById('imgTopBar');
+        let nomeTopBar = document.getElementById('nomeTopBar');
+    
+        imgTopBar.addEventListener('mouseover', function mostrarNome(){
+          nomeTopBar.innerHTML = 'Jakson Franceschini.';
+          nomeTopBar.style.animation = 'mostraNome 1s'
+        });
+    });
+
+    useEffect(() => {
         let iconeHamburguer = document.getElementById('iconeHamburguer')
         let iconeX = document.getElementById('iconeX')
         let menuHamburguer = document.getElementById('menuHamburguer')

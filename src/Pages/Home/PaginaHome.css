@@ -102,6 +102,35 @@
     letter-spacing: 1.5px;
 }
 
+.conteudoCardDestaque ul {
+    display: flex;
+    margin-top: 20px;
+}
+
+.conteudoCardDestaque li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+.conteudoCardDestaque a {
+    width: 100px;
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 30px;
+    align-items: center;
+    background: #404040;
+    justify-content: center;
+}
+
+.conteudoCardDestaque a:hover {
+    background: #606060;
+}
+
+.conteudoCardDestaque a:active {
+    background: #808080;
+}
+
 .cardDestaque {
     display: flex;
     padding: 50px 50px;
@@ -112,13 +141,6 @@
     box-shadow: #9999991a 0px 4px 10px;
 }
 
-.cardDestaque:hover {
-    background: #404040;
-}
-
-.cardDestaque:active {
-    background: #606060;
-}
 
 .cardDestaque img {
     width: 230px;
@@ -245,7 +267,7 @@
 
     .containerDestaques {
         padding: 18px;
-        height: 510px;
+        height: 630px;
     }
 
     .containerDestaques h2 {
@@ -261,8 +283,8 @@
     }
 
     .cardDestaque img {
-        width: 150px;
-        height: 100px;
+        width: 250px;
+        height: 170px;
     }
 
     .cardDestaque h2 {
@@ -331,7 +353,7 @@
     }
 
     .containerDestaques {
-        height: 580px;
+        height: 740px;
     }
 
     .containerDestaques h2 {
@@ -359,6 +381,7 @@
     }
 
     .cardDestaque h2 {
+        text-align: center;
         font-size: 1.5rem;
         margin: 20px 0 0 0;
     }
