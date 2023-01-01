@@ -27,10 +27,6 @@
     height: 70px;
 }
 
-#menuHamburguer{
-    display: none;
-}
-
 @keyframes mostraNome {
     from {
         transform: translateX(0);
@@ -41,11 +37,11 @@
 }
 
 #nomeTopBar {
-    margin: 10px 0 0 10px;
     height: 30px;
     font-weight: 500;
     color: #f5f5f5;
     font-size: 1.4rem;
+    margin: 10px 0 0 10px;
     text-decoration: none;
 }
 
@@ -63,14 +59,6 @@
 
 #imgTopBar:active {
     border: 3px solid #606060;
-}
-
-#iconeHamburguer {
-    display: none;
-}
-
-#menuHamburguerLinks {
-    display: none;
 }
 
 .menuTopBar {
@@ -103,17 +91,19 @@
     background: #404040;
 }
 
-@media screen and (min-width: 769px) and (max-width: 1279px){
-    #iconeHamburguer {
-        display: none;
-    }
-
-    #menuHamburguerLinks {
-        display: none;
-    }
+#menuHamburguer{
+    display: none;
 }
 
-@media screen and (min-width: 769px) and (max-width: 1279px) {
+#iconeHamburguer {
+    display: none;
+}
+
+#menuHamburguerLinks {
+    display: none;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1279px){
     #nomeTopBar {
         color: #f5f5f5;
         font-size: 1.2rem;
@@ -123,9 +113,22 @@
         font-size: 1.2rem;
         padding: 10px 25px;
     }
+
+
+    #iconeHamburguer {
+        display: none;
+    }
+
+    #menuHamburguerLinks {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 768px) {
+    .menuTopBar {
+        display: none;
+    }
+
     #menuHamburguer{
         width: 100%;
         height: 100vh;
@@ -186,9 +189,5 @@
 
     #menuHamburguerLinks a:active {
         background: #404040;
-    }
-
-    .menuTopBar {
-        display: none;
     }
 }
