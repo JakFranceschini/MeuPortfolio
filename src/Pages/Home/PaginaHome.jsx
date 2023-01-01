@@ -8,8 +8,8 @@ import ImgHtml from './../../Img/imgHtml5.png'
 import ImgPython from './../../Img/imgPython.png'
 import ImgReactjs from './../../Img/imgReactjs.png'
 import ImgJavaScript from './../../Img/imgJavascript.png'
-import ImgSegundoCard from './../../Img/imgSegundoCard.png'
-import ImgPrimeiroCard from './../../Img/imgPrimeiroCard.png'
+import ImgToDo from './../../Img/imgToDo.png'
+import ImgProfileCard from './../../Img/imgProfileCard.png'
 import { BsFacebook, BsGithub, BsInstagram, BsWhatsapp, BsGlobe, BsFillArrowRightCircleFill } from 'react-icons/bs'
 
 function PaginaHome() {
@@ -65,7 +65,7 @@ function PaginaHome() {
           <h3>Alguns projetos pessoais que estou desenvolvendo.</h3>
 
           <div className="cardDestaque" href="">
-              <img src={ImgPrimeiroCard}></img>
+              <img src={ImgProfileCard}></img>
               <div className="conteudoCardDestaque">
                   <h2>Profile Card</h2>
                   <p>Projeto pessoal de um Profile Card desenvolvido com HTML e CSS.</p>
@@ -86,7 +86,7 @@ function PaginaHome() {
           </div>
 
           <div className="cardDestaque" href="">
-          <img src={ImgSegundoCard}></img>
+          <img src={ImgToDo}></img>
               <div className="conteudoCardDestaque">
                   <h2>ToDo List</h2>
                   <p>Desenvolvi um projeto de ToDo List com HTML, CSS e JavaScript.</p>
