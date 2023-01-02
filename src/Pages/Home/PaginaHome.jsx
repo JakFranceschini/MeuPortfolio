@@ -22,10 +22,10 @@ function PaginaHome() {
       email.style.color = '#f5f5f5';
       email.style.maxWidth = '380px';
       email.style.fontWeight = '600';
-      email.style.fontSize = '1rem';
+      email.style.fontSize = '0.8rem';
       email.style.borderRadius = '30px';
       email.style.letterSpacing = '3px';
-      email.style.padding = '13px 15px';
+      email.style.padding = '13px 5px';
       email.style.background = '#303030';
       email.innerHTML = 'jakson.franceschini@gmail.com';
     });
