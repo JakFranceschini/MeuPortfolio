@@ -13,12 +13,9 @@ import ImgProfileCard from './../../Img/imgProfileCard.png'
 import { BsFacebook, BsGithub, BsInstagram, BsWhatsapp, BsGlobe, BsFillArrowRightCircleFill } from 'react-icons/bs'
 
 function PaginaHome() {
-
   return (
     <div className='paginaHome'>
-
       <TopBar/>
-
       <div className='header'>
         <h1>Desenvolvedor FrontEnd, criando interfaces inteligentes e intuitivas.</h1>
         <p>
@@ -27,7 +24,6 @@ function PaginaHome() {
             dedicado e comprometido em tudo que faço, atualmete estou a procura de uma primeira oportunidade para poder seguir carreira na area.
         </p>
       </div>
-
       <div className='containerContato'>
         <h2>Contato.</h2>
         <div className='containerRedesSociais'>
@@ -40,7 +36,6 @@ function PaginaHome() {
             <li><h3>jakson.franceschini@gmail.com</h3></li>
         </div>
       </div>
-
       <div className="containerDestaques">
         <h2>Projetos em destaques.</h2>
         <h3>Alguns projetos pessoais que estou desenvolvendo.</h3>
@@ -87,7 +82,6 @@ function PaginaHome() {
         </div>
         <a className="verMais" href="Projetos">Ver mais<BsFillArrowRightCircleFill className="seta" size={20} color="#f5f5f5"/></a>
       </div>
-
       <div id="containerSkills">
           <h2>Skills</h2>
           <h3>Ferramentas de desenvolvimento que eu possuo habilidades.</h3>
@@ -130,13 +124,10 @@ function PaginaHome() {
             </ul>
         </div>
       </div>
-
       <Footer/>
-      
     </div>
   )
 }
-
 export default PaginaHome
 
 

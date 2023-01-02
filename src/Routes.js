@@ -1,10 +1,10 @@
 import PaginaHome from './Pages/Home/PaginaHome'
+import PaginaSobre from './Pages/Sobre/PaginaSobre'
 import PaginaProjetos from './Pages/Projetos/PaginaProjetos'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 
 function Rotas() {
-
     return (
       <div className='Rotas'>
           <BrowserRouter>
@@ -12,11 +12,13 @@ function Rotas() {
                   <Route path='/' element={<PaginaHome/>}/>
               </Routes>
               <Routes>
-                  <Route path='/Projetos' element={<PaginaProjetos/>}/>
+                  <Route path='/projetos' element={<PaginaProjetos/>}/>
+              </Routes>
+              <Routes>
+                  <Route path='/sobre' element={<PaginaSobre/>}/>
               </Routes>
           </BrowserRouter>
       </div>
     )
 }
-  
-export default Rotas;
+export default Rotas

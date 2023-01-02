@@ -8,12 +8,9 @@ import ImgNavBar from './../../Img/imgNavBar.png'
 import { BsGithub, BsGlobe, BsFillArrowRightCircleFill } from 'react-icons/bs'
 
 function PaginaProjetos() {
-
     return (
         <div className='paginaProjetos'>
-
             <TopBar/>
-
             <div className='containerProjetos'>
                 <div className='cardProjeto'>
                     <h2>Profile Card</h2>
@@ -35,7 +32,6 @@ function PaginaProjetos() {
                         </li>
                     </ul>
                 </div>
-
                 <div className='cardProjeto'>
                     <h2>ToDo List</h2>
                     <img src={ImgToDo}></img>
@@ -56,7 +52,6 @@ function PaginaProjetos() {
                         </li>
                     </ul>
                 </div>
-
                 <div className='cardProjeto'>
                     <h2>Form Login</h2>
                     <img src={ImgFormLogin}></img>
@@ -77,7 +72,6 @@ function PaginaProjetos() {
                         </li>
                     </ul>
                 </div>
-
                 <div className='cardProjeto'>
                     <h2>Nav Bar</h2>
                     <img src={ImgNavBar}></img>
@@ -99,11 +93,8 @@ function PaginaProjetos() {
                     </ul>
                 </div>
             </div>
-
             <Footer/>
-
         </div>
     )
 }
-  
 export default PaginaProjetos;

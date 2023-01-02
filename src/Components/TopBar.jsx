@@ -56,8 +56,8 @@ function TopBar(){
 
             <ul className="menuTopBar">
                 <li><a href="/">Home</a></li>
-                <li><a href="Sobre">Sobre</a></li>
-                <li><a href="Projetos">Projetos</a></li>
+                <li><a href="sobre">Sobre</a></li>
+                <li><a href="projetos">Projetos</a></li>
                 <li><a href="#containerSkills">Skills</a></li>
             </ul>
 
@@ -69,7 +69,6 @@ function TopBar(){
                 <li><a href="/">Home</a></li>
                 <li><a href="Sobre">Sobre</a></li>
                 <li><a href="Projetos">Projetos</a></li>
-                <li><a href="#containerSkills">Skills</a></li>
                 <li><FiX id="iconeX" color="#f5f5f5"/></li>
             </ul>
         
