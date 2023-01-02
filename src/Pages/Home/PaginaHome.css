@@ -352,6 +352,10 @@
         justify-content: center;
     }
 
+    #email h3 {
+        font-size: 1rem;
+    }
+
     .containerDestaques {
         height: 740px;
     }
@@ -373,6 +377,10 @@
 
     .conteudoCardDestaque {
         margin: 0;
+    }
+
+    .conteudoCardDestaque a {
+        padding: 5px;
     }
 
     .cardDestaque img {
