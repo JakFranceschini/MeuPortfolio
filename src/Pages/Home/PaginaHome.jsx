@@ -10,7 +10,7 @@ import ImgPython from './../../Img/imgPython.png'
 import ImgReactjs from './../../Img/imgReactjs.png'
 import ImgJavaScript from './../../Img/imgJavascript.png'
 import ImgProfileCard from './../../Img/imgProfileCard.png'
-import { BsFacebook, BsGithub, BsInstagram, BsWhatsapp, BsGlobe, BsFillArrowRightCircleFill } from 'react-icons/bs'
+import { BsFacebook, BsGithub, BsInstagram, BsWhatsapp, BsLinkedin, BsGlobe, BsFillArrowRightCircleFill } from 'react-icons/bs'
 
 function PaginaHome() {
   return (
@@ -32,6 +32,7 @@ function PaginaHome() {
                 <li><a href='https://www.instagram.com/jaksonfranceschini/?hl=pt-br' target='blank'><BsInstagram size={40} color='f5f5f5'/></a></li>
                 <li><a href='https://api.whatsapp.com/send?phone=5551993443132' target='blank'><BsWhatsapp size={40} color='#f5f5f5'/></a></li>
                 <li><a href='https://github.com/JakFranceschini' target='blank'><BsGithub size={40} color='#f5f5f5'/></a></li>
+                <li><a href='https://www.linkedin.com/in/jakson-franceschini-87a15825b/' target='blank'><BsLinkedin size={40} color='#f5f5f5'/></a></li>
             </ul>
             <li><h3>jakson.franceschini@gmail.com</h3></li>
         </div>

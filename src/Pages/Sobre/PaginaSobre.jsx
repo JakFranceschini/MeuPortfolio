@@ -8,7 +8,7 @@ function PaginaSobre () {
         <div className='paginaSobre'>
             <TopBar/>
             <div className='containerSobre'>
-                <h1>Um pouco sobre mim</h1>
+                <h1>Um pouco sobre mim e tecnologias que utilizo</h1>
                 <h2>
                     Me chamo Jakson Franceschini, estou iniciando na area da programação, moro em Porto Alegre, RS. Optei em começar pelo desenvolvimento frontend
                     pois foi onde eu me senti mais motivado e tive mais facilidades para aprender. Apesar de saber os fundamentos do frontend eu também sei

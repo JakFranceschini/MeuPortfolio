@@ -257,6 +257,10 @@
     .containerRedesSociais {
         flex-direction: column;
     }
+
+    .containerRedesSociais ul {
+        margin-bottom: 30px;
+    }
     
     #email {
         max-width: 65px;
