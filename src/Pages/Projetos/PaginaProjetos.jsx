@@ -5,6 +5,7 @@ import ImgProfileCard from './../../Img/imgProfileCard.png'
 import ImgToDo from './../../Img/imgToDo.png'
 import ImgFormLogin from './../../Img/imgFormLogin.png'
 import ImgNavBar from './../../Img/imgNavBar.png'
+import ImgShoppingWidget from './../../Img/imgShoppingWidget.png'
 import { BsGithub, BsGlobe, BsFillArrowRightCircleFill } from 'react-icons/bs'
 
 function PaginaProjetos() {
@@ -86,6 +87,26 @@ function PaginaProjetos() {
                             </a>
                         </li>
                         <li><a href='https://nav-bar-ruby-ten.vercel.app/' target='blank'>
+                                <BsGlobe size={35} color="#f5f5f5"/>
+                                <BsFillArrowRightCircleFill className='seta' size={25} color="#f5f5f5"/>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div className='cardProjeto'>
+                    <h2>Shopping Widget</h2>
+                    <img src={ImgShoppingWidget}></img>
+                    <p>
+                        Projeto pessoal de um Shopping Widget desenvolvido com HTML, CSS e JavaScript.
+                    </p>
+                    <ul>
+                        <li>
+                            <a href='https://github.com/JakFranceschini/ShoppingWidget' target='blank'>
+                                <BsGithub size={35} color="#f5f5f5"/>
+                                <BsFillArrowRightCircleFill className='seta' size={25} color="#f5f5f5"/>
+                            </a>
+                        </li>
+                        <li><a href='https://shopping-widget.vercel.app/' target='blank'>
                                 <BsGlobe size={35} color="#f5f5f5"/>
                                 <BsFillArrowRightCircleFill className='seta' size={25} color="#f5f5f5"/>
                             </a>
