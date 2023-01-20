@@ -6,7 +6,7 @@
     justify-content: center;
 }
 
-.header {
+header {
     width: 80%;
     display: flex;
     margin-top: 100px;
@@ -14,7 +14,7 @@
     flex-direction: column;
 }
 
-.header h1 {
+header h1 {
     font-size: 4rem;
     font-weight: 800;
     margin-top: 30px;
@@ -24,7 +24,7 @@
     letter-spacing: 2px;
 }
 
-.header p {
+header p {
     line-height: 1.5;
     font-weight: 500;
     color: #606060;
@@ -32,14 +32,14 @@
     letter-spacing: 1.4px;
 }
 
-.containerContato {
+.sectionContato {
     width: 80%;
     display: grid;
     margin: 60px 0;
     align-items: center;
 }
 
-.containerContato h2 {
+.sectionContato h2 {
     color: #f5f5f5;
     margin-bottom: 40px;
     letter-spacing: 1.2px;
@@ -58,9 +58,10 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    margin-right: 20px;
 }
 
-.containerRedesSociais h3 {
+.containerRedesSociais label {
     cursor: pointer;
     font-weight: 600;
     color: #f5f5f5;
@@ -76,7 +77,7 @@
     padding: 0 20px 0 0;
 }
 
-.containerDestaques {
+.sectionDestaques {
     width: 77%;
     height: 720px;
     padding: 30px;
@@ -86,7 +87,7 @@
     box-shadow: #9999991a 0px 4px 10px;
 }
 
-.containerDestaques h2 {
+.sectionDestaques h2 {
     font-size: 2rem;
     font-weight: 700;
     color: #f5f5f5;
@@ -94,7 +95,7 @@
     letter-spacing: 1.5px;
 }
 
-.containerDestaques h3 {
+.sectionDestaques h3 {
     color: #404040;
     font-weight: 500;
     font-size: 1.5rem;
@@ -190,21 +191,21 @@
     margin-left: 10px;
 }
 
-#containerSkills {
+#sectionSkills {
     width: 80%;
     display: flex;
     padding-bottom: 60px;
     flex-direction: column;
 }
 
-#containerSkills h2 {
+#sectionSkills h2 {
     padding: 20px 0;
     font-size: 2rem;
     color: #f5f5f5;
     letter-spacing: 1.2px;
 }
 
-#containerSkills h3 {
+#sectionSkills h3 {
     color: #404040;
     font-size: 1.3rem;
     letter-spacing: 1.2px;

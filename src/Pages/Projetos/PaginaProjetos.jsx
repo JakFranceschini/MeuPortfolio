@@ -7,7 +7,7 @@ import ImgFormLogin from "./../../Img/imgFormLogin.png";
 import ImgDivisaoDinheiro from "./../../Img/imgDivisaoDinheiro.png";
 import ImgNavBar from "./../../Img/imgNavBar.png";
 import ImgShoppingWidget from "./../../Img/imgShoppingWidget.png";
-import { BsGithub, BsGlobe, BsFillArrowRightCircleFill } from "react-icons/bs";
+import {BsGithub, BsGlobe, BsFillArrowRightCircleFill} from "react-icons/bs";
 
 function PaginaProjetos() {
   return (
@@ -140,4 +140,5 @@ function PaginaProjetos() {
     </div>
   );
 }
+
 export default PaginaProjetos;
