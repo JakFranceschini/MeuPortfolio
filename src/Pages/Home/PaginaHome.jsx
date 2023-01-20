@@ -1,5 +1,4 @@
 import './PaginaHome.css'
-import { useEffect } from 'react'
 import ImgCss from './../../Img/imgCss3.png'
 import ImgToDo from './../../Img/imgToDo.png'
 import ImgPyqt from './../../Img/imgPyqt.png'
