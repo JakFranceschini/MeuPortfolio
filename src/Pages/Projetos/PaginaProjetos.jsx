@@ -38,16 +38,16 @@ function PaginaProjetos() {
         <div className="cardProjeto">
           <h2>ToDo List</h2>
           <img src={ImgToDo}/>
-          <p>Projeto pessoal de um ToDo List desenvolvido com HTML, CSS e JavaScript.</p>
+          <p>Projeto pessoal de um ToDo List desenvolvido com HTML, CSS, JavaScript e ReactJS.</p>
           <ul>
             <li>
-              <a href="https://github.com/JakFranceschini/ToDoList" target="blank">
+              <a href="https://github.com/JakFranceschini/TodoList" target="blank">
                 <BsGithub size={35} color="#f5f5f5" />
                 <BsFillArrowRightCircleFill className="seta" size={25} color="#f5f5f5"/>
               </a>
             </li>
             <li>
-              <a href="https://to-do-list-tau-jade.vercel.app/" target="blank">
+              <a href="https://todo-list-psi-navy.vercel.app/" target="blank">
                 <BsGlobe size={35} color="#f5f5f5" />
                 <BsFillArrowRightCircleFill className="seta" size={25} color="#f5f5f5"/>
               </a>

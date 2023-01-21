@@ -9,7 +9,7 @@ import ImgPython from "./../../Img/imgPython.png";
 import ImgReactjs from "./../../Img/imgReactjs.png";
 import ImgJavaScript from "./../../Img/imgJavascript.png";
 import ImgProfileCard from "./../../Img/imgProfileCard.png";
-import {BsFacebook, BsGithub, BsInstagram, BsWhatsapp, BsLinkedin, BsGlobe, BsFillArrowRightCircleFill,} from "react-icons/bs";
+import {BsFacebook, BsGithub, BsInstagram, BsWhatsapp, BsLinkedin, BsGlobe, BsFillArrowRightCircleFill} from "react-icons/bs";
 
 function PaginaHome() {
   return (
